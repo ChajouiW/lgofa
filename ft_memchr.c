@@ -6,11 +6,11 @@
 /*   By: mochajou <mochajou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/23 21:57:40 by mochajou          #+#    #+#             */
-/*   Updated: 2024/08/24 00:22:15 by mochajou         ###   ########.fr       */
+/*   Updated: 2024/08/27 00:11:35 by mochajou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 void	*memchr(const void *s, int c, size_t n)
 {

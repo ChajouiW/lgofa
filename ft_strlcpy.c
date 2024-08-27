@@ -6,11 +6,11 @@
 /*   By: mochajou <mochajou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/24 05:59:10 by mochajou          #+#    #+#             */
-/*   Updated: 2024/08/24 06:09:24 by mochajou         ###   ########.fr       */
+/*   Updated: 2024/08/27 00:18:15 by mochajou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {

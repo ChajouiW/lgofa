@@ -6,11 +6,11 @@
 /*   By: mochajou <mochajou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/26 04:22:05 by mochajou          #+#    #+#             */
-/*   Updated: 2024/08/26 04:33:34 by mochajou         ###   ########.fr       */
+/*   Updated: 2024/08/27 00:18:36 by mochajou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {

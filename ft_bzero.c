@@ -6,11 +6,11 @@
 /*   By: mochajou <mochajou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/22 18:43:12 by mochajou          #+#    #+#             */
-/*   Updated: 2024/08/22 18:49:14 by mochajou         ###   ########.fr       */
+/*   Updated: 2024/08/27 00:20:33 by mochajou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {

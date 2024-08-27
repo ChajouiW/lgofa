@@ -6,11 +6,11 @@
 /*   By: mochajou <mochajou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/21 19:44:36 by mochajou          #+#    #+#             */
-/*   Updated: 2024/08/24 02:26:32 by wsl              ###   ########.fr       */
+/*   Updated: 2024/08/27 00:20:24 by mochajou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 size_t	ft_strlen(const char *s)
 {

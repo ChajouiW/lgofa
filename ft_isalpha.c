@@ -6,11 +6,11 @@
 /*   By: mochajou <mochajou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/22 20:54:59 by mochajou          #+#    #+#             */
-/*   Updated: 2024/08/26 02:59:00 by mochajou         ###   ########.fr       */
+/*   Updated: 2024/08/27 00:20:42 by mochajou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 int	isalpha(int c)
 {

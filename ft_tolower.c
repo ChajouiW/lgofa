@@ -6,11 +6,11 @@
 /*   By: mochajou <mochajou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/25 04:06:38 by mochajou          #+#    #+#             */
-/*   Updated: 2024/08/25 04:08:18 by mochajou         ###   ########.fr       */
+/*   Updated: 2024/08/27 00:19:52 by mochajou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 int	ft_tolower(int c)
 {

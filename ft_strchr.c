@@ -6,11 +6,11 @@
 /*   By: mochajou <mochajou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/25 04:13:14 by mochajou          #+#    #+#             */
-/*   Updated: 2024/08/25 04:33:47 by mochajou         ###   ########.fr       */
+/*   Updated: 2024/08/27 00:21:05 by mochajou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
 {

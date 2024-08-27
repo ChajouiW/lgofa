@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wsl <marvin@42.fr>                         +#+  +:+       +#+        */
+/*   By: mochajou <mochajou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/08/24 05:17:43 by wsl               #+#    #+#             */
-/*   Updated: 2024/08/24 05:28:40 by wsl              ###   ########.fr       */
+/*   Created: 2024/08/27 00:15:41 by mochajou          #+#    #+#             */
+/*   Updated: 2024/08/27 00:15:53 by mochajou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 char	*ft_strdup(const char *s)
 {

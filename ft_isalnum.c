@@ -6,11 +6,11 @@
 /*   By: mochajou <mochajou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/26 03:05:58 by mochajou          #+#    #+#             */
-/*   Updated: 2024/08/26 03:09:59 by mochajou         ###   ########.fr       */
+/*   Updated: 2024/08/27 00:11:12 by mochajou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 int	ft_isalnum(int c)
 {
