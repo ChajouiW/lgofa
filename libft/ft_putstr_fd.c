@@ -1,28 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strrchr.c                                       :+:      :+:    :+:   */
+/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mochajou <mochajou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/08/25 18:34:03 by mochajou          #+#    #+#             */
-/*   Updated: 2024/08/31 22:39:36 by mochajou         ###   ########.fr       */
+/*   Created: 2024/09/01 03:45:23 by mochajou          #+#    #+#             */
+/*   Updated: 2024/09/01 04:03:35 by mochajou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
-char	*ft_strrchr(const char *s, int c)
+void	ft_putstr_fd(char const *s, int fd)
 {
-	size_t	len;
+	int	i;
 
-	len = ft_strlen(s);
-	if (c == '\0')
-		return ((char *)(s + len));
-	while (len > 0)
+	i = 0;
+	while (s[i])
 	{
-		if (s[len - 1] == (unsigned char)c)
-			return ((char *)(s + len - 1));
-		len--;
+		write(fd, &s[i], 1);
+		i++;
 	}
-	return (NULL);
 }

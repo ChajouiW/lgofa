@@ -6,7 +6,7 @@
 /*   By: mochajou <mochajou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/24 23:50:16 by mochajou          #+#    #+#             */
-/*   Updated: 2024/08/27 00:18:43 by mochajou         ###   ########.fr       */
+/*   Updated: 2024/09/01 02:59:37 by wsl              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	d_len = ft_strlen(dst);
 	s_len = ft_strlen(src);
 	if (size <= d_len)
-		return (d_len + s_len);
+		return (size + s_len);
 	i = 0;
 	while (src[i] && d_len + i < size - 1)
 	{

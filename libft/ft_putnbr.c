@@ -1,28 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strrchr.c                                       :+:      :+:    :+:   */
+/*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mochajou <mochajou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/08/25 18:34:03 by mochajou          #+#    #+#             */
-/*   Updated: 2024/08/31 22:39:36 by mochajou         ###   ########.fr       */
+/*   Created: 2024/09/01 04:06:36 by mochajou          #+#    #+#             */
+/*   Updated: 2024/09/01 04:18:05 by mochajou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
-char	*ft_strrchr(const char *s, int c)
+void	ft_putnbr(int n)
 {
-	size_t	len;
+	char	c;
 
-	len = ft_strlen(s);
-	if (c == '\0')
-		return ((char *)(s + len));
-	while (len > 0)
+	if (n == -2147483648)
 	{
-		if (s[len - 1] == (unsigned char)c)
-			return ((char *)(s + len - 1));
-		len--;
+		write(1, "-2147483648", 11);
+		return ;
 	}
-	return (NULL);
+	if (n < 0)
+	{
+		write(1, "-", 1);
+		n *= -1;
+	}
+	if (n >= 0)
+	{
+		if (n > 9)
+			ft_putnbr(n / 10);
+		c = n % 10 + '0';
+		write(1, &c, 1);
+	}
 }
